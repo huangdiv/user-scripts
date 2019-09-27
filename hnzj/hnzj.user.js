@@ -2,7 +2,7 @@
 // @name         河南专技在线辅助
 // @namespace    https://github.com/huangdiv/user-scripts/
 // @version      1.4
-// @description  河南专技在线辅助|继续教育公需科目专业科目辅助|自动静音播放|自动播放下一个视频|自动答题(去掉答题弹窗)
+// @description  继续教育公需科目专业科目辅助|自动静音播放|自动播放下一个视频|自动答题(去掉答题弹窗)
 // @author       huangdiv(huangdiv@gmail.com)
 // @match        *://*.ghlearning.com/*
 // @require      http://code.jquery.com/jquery-1.12.4.min.js
