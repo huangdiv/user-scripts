@@ -19,5 +19,5 @@
 脚本反馈：[河南专技在线辅助][1]　[Github][2]
 
 
-  [1]:https://huangdi.site/2019/08/27/河南专技在线辅助/
+  [1]:https://huangdiv.com/tech/ghlearning-assist/
   [2]:https://github.com/huangdiv/user-scripts/tree/master/hnzj
