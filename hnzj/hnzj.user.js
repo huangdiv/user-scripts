@@ -80,13 +80,13 @@
 
     function fixFuc1 (){
         window.s2j_onVideoPause = function () {
-            console.log('触发暂停(手动触发)，已处理，视频进度会继续增加。');
-			console.log('但进度走完暂时不会自动切换到下一个视频，因此请取消暂停');
+        console.log('触发暂停(手动触发)，已处理，视频进度会继续增加。');
+        console.log('但进度走完暂时不会自动切换到下一个视频，因此请取消暂停');
         }
         window.onQuestionPopUp = function () {
-            console.log('触发暂停(弹题触发)，已处理，不答题视频进度也会继续增加。');
-			console.log('但进度走完暂时不会自动切换到下一个视频，此时请手动刷新页面，功能正在努力优化中...');
-		}
+        console.log('触发暂停(弹题触发)，已处理，不答题视频进度也会继续增加。');
+	console.log('但进度走完暂时不会自动切换到下一个视频，此时请手动刷新页面，功能正在努力优化中...');
+	}
     }
 
     function start(){
@@ -98,19 +98,19 @@
         }
         if (document.getElementsByClassName("polyvFlashObject")[0]){
             player=document.getElementsByClassName("polyvFlashObject")[0];
-			setTimeout(hide,1000);
-			setTimeout(resume,2000);//自动播放
-			console.log('切换视频后自动开始播放...');
-			setTimeout(function (){vol(0);},3000);//静音
-			setTimeout(fixFuc,4000);//修改功能
-			//setTimeout(pause,5000);//暂停视频播放,进度继续增加。
-			setTimeout(toNext,6000);//检测进度
+	    setTimeout(hide,1000);
+	    setTimeout(resume,2000);//自动播放
+	    console.log('切换视频后自动开始播放...');
+	    setTimeout(function (){vol(0);},3000);//静音
+	    setTimeout(fixFuc,4000);//修改功能
+	    //setTimeout(pause,5000);//暂停视频播放,进度继续增加。
+	    setTimeout(toNext,6000);//检测进度
         } 
         if (document.getElementsByClassName("pv-video")[0]){
             setTimeout(fixFuc1,1000);//修改功能
             document.getElementsByClassName("pv-video")[0].autoplay=true;
             console.log('切换视频后自动开始播放...');
-			//针对html5播放器的操作还比较简陋，功能不断优化中...
+	    //针对html5播放器的操作还比较简陋，功能不断优化中...
         }
     }
 
