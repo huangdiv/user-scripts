@@ -23,4 +23,4 @@
 
 
   [1]:https://huangdiv.com/tech/ghlearning-assist/
-  [2]:https://github.com/huangdiv/user-scripts/tree/master/hnzj
+  [2]:https://github.com/huangdiv/user-scripts/issues
