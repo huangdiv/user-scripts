@@ -28,8 +28,9 @@
 ### 2020年4月30日更新：
 - 发布1.5版，新增对HTML5播放器的支持，功能够用，但还比较简陋。
 
-脚本反馈：[Github][1]
-         [我的博客][2]　
+## 【脚本反馈】
+### [Github][1]
+### [我的博客][2]　
 
 
   [1]:https://github.com/huangdiv/user-scripts/issues/2
