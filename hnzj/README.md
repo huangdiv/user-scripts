@@ -32,9 +32,10 @@
 - 发布1.5版，新增对HTML5播放器的支持，功能够用，但还比较简陋。
 
 ## 【脚本反馈】
-### [Github][1]    [我的博客][2]　
+经历这两天连续的几次迭代升级，本脚本功能已经比较完善。亲测支持河南专技在线的公需科目，以此为基础搭建的地市区县的专业科目这两个内容的自动学习，只需提前登录，购买班级，选好课程，进入课程列表即可。
 
+目前已知问题：
+- 若某些地区播放器不支持`window.s2j_onPlayerInitOver`等接口调用的，本脚本无效；
+- 从付款界面直接进入课程学习的，无法自动进行课程选择，建议从已选课程列表进入课程学习。
 
-  [1]:https://github.com/huangdiv/user-scripts/issues/2
-  [2]:https://huangdiv.com/tech/ghlearning-assist/
-
+若发现其他问题，请在[脚本反馈区](https://greasyfork.org/zh-CN/scripts/389705-%E6%B2%B3%E5%8D%97%E4%B8%93%E6%8A%80%E5%9C%A8%E7%BA%BF%E8%BE%85%E5%8A%A9/feedback)，[GitHub](https://github.com/huangdiv/user-scripts/issues/2)或者[个人博客页](https://huangdiv.com/tech/ghlearning-assist/)反馈。
