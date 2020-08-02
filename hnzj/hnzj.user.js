@@ -200,7 +200,7 @@
     }
     var player,
         playerH5,
-		myTimer = setInterval(enterCourse, 3000);
+	myTimer = setInterval(enterCourse, 3000);
     window.s2j_onPlayerInitOver = start; //脚本主要依赖这个播放器初始化功能，如果你的播放器页面没有这个功能，将无法使用本脚本。
 
     //++++++++++++++++++
