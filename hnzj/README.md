@@ -13,11 +13,10 @@
 
 1. **脚本不具备自动登录，选课等功能**。因此需要用户登录河南专技在线的账号，选择课程，进入播放页面，然后脚本才能开始正常运行。
 2. **脚本运行没有任何提示**，确认脚本正常运行的方式是：① 课程视频自动无声播放；②播放页面按F12进入Console界面可看到脚本运行的提示类似下图。
-
-![提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/2.png)
+![提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/2.png#pic_center)
 3. 完成班级所报课程后，会弹出对话框如下图。
 
-![完成提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/1.png)
+![完成提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/1.png#pic_center)
 
 ## 【更新日志】
 ### 2020年8月2日更新：
@@ -29,7 +28,7 @@
 - 有问题请在本页面或GitHub的issues页面反馈。
 - 按F12进入Console界面，键入`window.s2j`会得到如下的功能提示，如果与此不同，说明该播放器不被脚本支持。
 
-![功能提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/3.png)
+![功能提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/3.png#pic_center)
 
 ### 2020年4月30日更新：
 - 发布1.5版，新增对HTML5播放器的支持，功能够用，但还比较简陋。
