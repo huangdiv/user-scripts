@@ -26,8 +26,7 @@
 - 发布1.6-1.8版，完善了对HTML5播放器的支持，所有功能已恢复正常。
 - 有问题请在本页面或GitHub的issues页面反馈。
 - 按F12进入Console界面，键入`window.s2j`会得到如下的功能提示，如果与此不同，说明该播放器不被脚本支持。
-
-![功能提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/3.png#pic_center)
+<div align="center"><img src="https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/3.png"/></div>
 
 ### 2020年4月30日更新：
 - 发布1.5版，新增对HTML5播放器的支持，功能够用，但还比较简陋。
