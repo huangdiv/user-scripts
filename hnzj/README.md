@@ -15,7 +15,6 @@
 2. **脚本运行没有任何提示**，确认脚本正常运行的方式是：① 课程视频自动无声播放；②播放页面按F12进入Console界面可看到脚本运行的提示类似下图。
 
 ![提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/2.png)
-
 3. 完成班级所报课程后，会弹出对话框如下图。
 
 ![完成提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/1.png)
