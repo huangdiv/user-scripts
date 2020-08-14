@@ -16,7 +16,7 @@
 ![提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/2.png#pic_center)
 3. 完成班级所报课程后，会弹出对话框如下图。
 
-![完成提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/1.png#pic_center)
+<div align="center">![完成提示](https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/1.png)</div>
 
 ## 【更新日志】
 ### 2020年8月2日更新：
