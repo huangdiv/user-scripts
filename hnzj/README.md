@@ -14,7 +14,8 @@
 1. **脚本不具备自动登录，选课等功能**。因此需要用户登录河南专技在线的账号，选择课程，进入播放页面，然后脚本才能开始正常运行。
 2. **脚本运行没有任何提示**，确认脚本正常运行的方式是：① 课程视频自动无声播放；②播放页面按F12进入Console界面可看到脚本运行的提示类似下图。
 <div align="center"><img src="https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/2.png"/></div>
-3. 完成班级所报课程后，会弹出对话框如下图。
+3. 为避免电脑休眠导致课程无法自动学习，**请在电脑系统设置里关闭电脑的休眠功能**。
+4. 完成班级所报课程后，会弹出对话框如下图。
 <div align="center"><img src="https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/1.png"/></div>
 
 ## 【更新日志】
