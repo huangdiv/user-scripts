@@ -203,7 +203,7 @@
         let jindu = document.querySelector("#a span[du-html=sumschedule]");
         if (jindu) {
             //在播放器页面
-            if (jindu.innerText != "100.00%") {
+            if (jindu.innerText != "100.00") {
                 //当前视频列表进度未完成
                 let dangqian = document.querySelector(".videoLi.active");
                 console.log("【河南专技在线辅助】\n" + dangqian.innerText);
