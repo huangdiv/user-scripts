@@ -189,7 +189,7 @@
     function enterCourse() {
         if (document.querySelector(".item-box")) {
             for (var i = 0; i < document.querySelectorAll(".item-box").length; i++) {
-                if (document.querySelectorAll("sr-only")[i * 2].innerText != "100.0%") {
+                if (document.querySelectorAll(".sr-only")[i * 2].innerText != "100.0%") {
                     document.querySelectorAll(".item-box")[i].click();
                     break;
                 }
