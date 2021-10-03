@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         教师研修网辅助
 // @namespace    https://github.com/huangdiv/user-scripts/
-// @version      0.3
+// @version      0.4
 // @description  教师研修网看课自动辅助|自动进入下一个视频（或文件）|视频暂停时自动播放|一次刷完所有看课内容
 // @author       huangdiv
 // @icon         data:image/png;base64,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
@@ -14,34 +14,35 @@
 
 (function () {
     //'use strict';
-
-    function countMinute(CssSelector, number, step) {
-        document.querySelector(CssSelector).innerText = number;
+    
+    x = 0
+    function countMinute(CssSelector, number, step) 
+    {　
+        document.querySelector(CssSelector).innerText = number; 
         number = number + step;
         setTimeout(countMinute(CssSelector, number, step), Math.abs(step) * 60 * 1000);
     }
-
-    function shutdownTab() {
-        window.opener = null;
-        window.open('', '_self');
+  
+    function shutdownTab(){
+        window.opener=null;
+        window.open('','_self');
         window.close();
     }
-
-    function insertLogoAfter(CssSelector, text) {
+  
+    function insertLogoAfter(CssSelector, text){
         //插入辅助标识
         //容错todo...
         if (!document.querySelector("#yxwfz-logo")) {
             document.querySelector(CssSelector).insertAdjacentHTML('afterEnd',
                 "<a href = 'https://greasyfork.org/zh-CN/scripts/431837-教师研修网辅助' target = '_blank'>" +
                 "<span id='yxwfz-logo' style= 'font-weight: 500;color: #ff0000;line-height: 30px;'>【教师研修网辅助】运行中>>>" +
-                "<span id='yxwfz-text' style= 'font-weight: 300;color: #00ff00;'>" + text +
-                "</span></span></a>"
+                "<span id='yxwfz-text' style= 'font-weight: 300;color: #00ff00;'>" + text + "</span></span></a>"
             );
         } else {
             document.querySelector("#yxwfz-text").innerText = text;
         }
     }
-
+  
     function getCoursesListGoal() {
         //优化传参todo...
         if (document.querySelectorAll("em").length) {
@@ -51,7 +52,7 @@
             return 300;
         }
     }
-
+  
     function getCourseProgress(courseDivItem) {
         //容错todo...
         if (courseDivItem.firstElementChild.lastElementChild.className == "item-infos pass") {
@@ -64,35 +65,34 @@
                 .lastElementChild.innerText.match(/\d+(?=%)/)[0]);
         }
     }
-
+  
     function courseList() {
 
         //课程选择
         let minutesTotal = getCoursesListGoal();
+        document.querySelector("ul.filter-data > li:nth-child(3) > div > div.content > div:nth-child(3) > span").click();
         let courses = document.querySelectorAll("div.item");
         if (minutesTotal > 0) {
-            console.log("目标学时：" + minutesTotal + "分钟");
+            console.log("目标学时：" + minutesTotal +"分钟");
             // 插入辅助标识
-            insertLogoAfter("span.sub-title", "目标：" + minutesTotal + "分钟");
+            insertLogoAfter("p.title > span","目标：" + minutesTotal +"分钟");
             for (var i = 0; i < courses.length; i++) {
                 let jindubi = getCourseProgress(courses[i]);
                 let minutes = (1 - jindubi) * parseInt(courses[i].firstElementChild.firstElementChild.lastElementChild
                     .innerText.match(/\d+(?=分钟)/)[0]);
-                minutes = minutes < minutesTotal ? minutes : minutesTotal;
+                    minutes = minutes < minutesTotal ? minutes : minutesTotal;
                 if (jindubi == 1) {
                     continue;
                 } else {
                     courses[i].firstChild.firstChild.click();
                     setTimeout("location.reload();", minutes * 60 * 1000);
-                    document.querySelector("#yxwfz-text").innerHTML = "已打开第" + (i + 1) +
-                        "个课程，将在<span id = yxwfz-minutes>" + minutes.toFixed(2) + "</span>分钟后刷新";
+                    document.querySelector("#yxwfz-text").innerHTML = "已打开第" + (i + 1) + "个课程，将在<span id = yxwfz-minutes>" + minutes.toFixed(2) + "</span>分钟后刷新";
                     console.log("已打开列表中第" + (i + 1) + "个看课课程");
-                    console.log("计时器已启动：");
-
+                    console.log("计时器已启动");
                     function countMinute() {
-                        document.querySelector("#yxwfz-minutes").innerText = minutes;
+                        document.querySelector("#yxwfz-minutes").innerText = minutes.toFixed(2); 
                         minutes = minutes - 1;
-                        console.log("将在" + (minutes + 1) + "分钟后刷新本列表页");
+                        console.log("将在" + (minutes.toFixed(2) + 1) + "分钟后刷新本列表页");
                         setTimeout(countMinute, 60 * 1000);
                     }
                     countMinute();
@@ -101,16 +101,14 @@
             }
         } else {
             console.log("恭喜您已完成看课所需学时！");
-            setTimeout(function () {
-                alert('恭喜您已完成看课所需学时！\n教师研修网辅助\n作者：huangdiv\n网址：http://huangdiv.com');
-            }, 1000);
+            setTimeout(function() {alert('恭喜您已完成看课所需学时！\n教师研修网辅助\n作者：huangdiv\n网址：http://huangdiv.com');},1000);
         }
     }
 
     function kanke() {
 
         // 插入辅助标识
-        insertLogoAfter("span.icon.primary", "");
+        insertLogoAfter("span.icon.primary","");
 
         //处理播放器事件
         if (document.querySelector("video")) {
@@ -123,8 +121,8 @@
 
         //处理各种突发事件
         if (document.querySelector("div.ended-mask").style.display == "") {
-            if (document.querySelector("p.next")) {
-                document.querySelector("p.next").click();
+            if (document.querySelector("p.next")){  
+                document.querySelector("p.next").click(); 
                 console.log("一个看完，看下一个内容");
                 document.querySelector("#yxwfz-text").innerText = "一个看完，看下一个内容";
             } else {
@@ -134,13 +132,13 @@
             }
         }
         if (document.querySelector("div.alarmClock-wrapper").style.display == "") {
-            document.querySelector("div.alarmClock-wrapper").click();
+            document.querySelector("div.alarmClock-wrapper").click(); 
             console.log("点继续看课");
             document.querySelector("#yxwfz-text").innerText = "点继续看课";
         }
         if (document.querySelector("div.scoring-wrapper").style.display == "") {
-            document.querySelector('div.commit > button.ivu-btn').disabled = false;
-            document.querySelector('div.commit > button.ivu-btn').click();
+            document.querySelector('div.commit > button.ivu-btn').disabled=false;
+            document.querySelector('div.commit > button.ivu-btn').click(); 
             console.log("给老师评价");
             document.querySelector("#yxwfz-text").innerText = "给老师评价";
         }
@@ -161,14 +159,14 @@
 
     function start() {
         //判断是哪个页面
-        if (document.querySelector(
-                "#app > div.app-body-wrap > section > div > div > div.courseList-wrapper > div > div.container > div.list-wrapper > div"
-            )) {
+        if (location.pathname==="/train/guide/course/list") {
             console.log("判断为课程列表页面");
             courseList();
-        } else if (document.querySelector("#course-detail > div.mainContent > section")) {
+        } else if (location.pathname.match(/\/grain\/course\/\d*\/detail/)) {
             console.log("判断为课程视频页面");
-            setInterval(kanke, 3000);
+            setInterval(kanke, 5000);
+        } else {
+            setTimeout(start,10000);
         }
     }
 
