@@ -15,7 +15,6 @@
 (function () {
     //'use strict';
     
-    x = 0
     function countMinute(CssSelector, number, step) 
     {　
         document.querySelector(CssSelector).innerText = number; 
