@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         教师研修网辅助
 // @namespace    https://github.com/huangdiv/user-scripts/
-// @version      0.4
+// @version      0.5
 // @description  教师研修网看课自动辅助|自动进入下一个视频（或文件）|视频暂停时自动播放|一次刷完所有看课内容
 // @author       huangdiv
 // @icon         data:image/png;base64,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
@@ -14,7 +14,7 @@
 
 (function () {
     //'use strict';
-    
+
     function countMinute(CssSelector, number, step) 
     {　
         document.querySelector(CssSelector).innerText = number; 
@@ -141,8 +141,8 @@
             console.log("给老师评价");
             document.querySelector("#yxwfz-text").innerText = "给老师评价";
         }
-        if (document.querySelector("button.ivu-btn.ivu-btn-text")) {
-            document.querySelector("button.ivu-btn.ivu-btn-text").click();
+        if (document.querySelectorAll("button.ivu-btn.ivu-btn-text").length == 2) {
+            document.querySelectorAll("button.ivu-btn.ivu-btn-text")[1].click();
             console.log("打开了其他播放页面，即将关闭本页面");
             document.querySelector("#yxwfz-text").innerText = "打开了其他播放页面，即将关闭本页面";
         }
