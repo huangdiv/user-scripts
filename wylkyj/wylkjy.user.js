@@ -1,11 +1,14 @@
 // ==UserScript==
-// @name        五岳联考阅卷输分自动点击Enter - wylkyj.com
-// @namespace   Violentmonkey Scripts
+// @name        五岳联考阅卷输分自动点击Enter
+// @namespace   https://github.com/huangdiv/user-scripts/
 // @match       http://www.wylkyj.com/yuejuan/
-// @grant       none
-// @version     0.1
+// @version     0.2
 // @author      huangdiv
-// @description 2022/4/22 14:28:55
+// @description 五岳联考阅卷输分自动点击Enter
+// @license     BY-NC-SA 4.0
+// @homepageURL  https://greasyfork.org/zh-CN/scripts/443794-五岳联考阅卷输分自动点击Enter
+// @supportURL   https://github.com/huangdiv/user-scripts/issues/4
+// @run-at       document-end
 // ==/UserScript==
 function clickEnter(){
 if(!document.querySelector("#app > div > div.read_status2 > span").innerText=='') {
