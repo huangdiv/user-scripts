@@ -4,7 +4,7 @@
 // @match       http://www.wylkyj.com/yuejuan/
 // @version     0.2
 // @author      huangdiv
-// @description 五岳联考阅卷输分自动点击Enter
+// @description 五岳联考阅卷辅助|输分自动点击Enter
 // @license     BY-NC-SA 4.0
 // @homepageURL  https://greasyfork.org/zh-CN/scripts/443794-五岳联考阅卷输分自动点击Enter
 // @supportURL   https://github.com/huangdiv/user-scripts/issues/4
