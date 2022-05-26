@@ -12,10 +12,10 @@
 // @run-at       document-end
 // ==/UserScript==
 function clickEnter(){
-     if(location.host=='www.wylkyj.com' && !document.querySelector("#app > div > div.read_status2 > span").innerText) {
+     if(location.host=='www.wylkyj.com' && document.querySelector("#app > div > div.read_status2 > span").innerText) {
           document.querySelector("#app > div > div.give_card > div.card_compute > div.compute_ent > button").click();
      }
-     if(location.host=='web.tydlk.com' && !document.querySelector("#app > section > section > div > div:nth-child(2) > div").innerText){
+     if(location.host=='web.tydlk.com' && document.querySelector("#app > section > section > div > div:nth-child(2) > div").innerText){
           document.querySelector("#app > section > section > div > div.kl-numbar > div > div.el-input.el-input--default.el-input-group.el-input-group--append.el-input-group--prepend.ty-score-bar > div.el-input-group__append > button").click();
      }
 }
