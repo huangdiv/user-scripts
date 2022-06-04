@@ -22,6 +22,9 @@
 <div align="center"><img src="https://raw.githubusercontent.com/huangdiv/user-scripts/master/hnzj/1.png"/></div>
 
 ## 【更新日志】
+### 2022年6月4日更新：
+- 发布3.3版，支持2022年最新版本；
+
 ### 2021年7月20日更新：
 - 发布2.4版，针对2021年公需课和专业课，简化脚本，所有主要功能修复，小伙伴们更新到最新版本，就可以愉快的一次性刷完所有所选课程了。
 
